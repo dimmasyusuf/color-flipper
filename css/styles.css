@@ -1,0 +1,71 @@
+h1, span {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2.5rem;
+    color: #344150;
+}
+
+footer {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 1rem;
+    color: #344150;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 15% 10% 9%;
+}
+
+.text-area {
+    padding: 0 0 10%;
+}
+
+.social-media {
+    padding: 0 0 1%;
+}
+
+.button {
+    color: #000;
+    margin: 0% .5%;
+}
+
+@media screen and (min-width: 450px) {
+    .container {
+        padding: 30% 10% 25%;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    .container {
+        padding: 25% 10% 25%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .container {
+        padding: 15% 10% 9%;
+    }
+}
+
+.btn-hero {
+  font-family: 'Fredoka', sans-serif;
+  text-transform: uppercase;
+  background: transparent;
+  color: #344150;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  font-weight: 700;
+  transition: all 0.3s linear;
+  border: 2px solid #344150;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover {
+  color: #344150;
+  background: #f0dd5d;
+}
