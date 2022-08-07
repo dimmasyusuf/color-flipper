@@ -4,11 +4,12 @@ h1, span {
     color: #344150;
 }
 
-footer {
-    font-family: 'Fredoka', sans-serif;
-    font-size: 1rem;
-    color: #344150;
-    text-align: center;
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
 }
 
 .container {
@@ -29,24 +30,6 @@ footer {
 .button {
     color: #000;
     margin: 0% .5%;
-}
-
-@media screen and (min-width: 450px) {
-    .container {
-        padding: 30% 10% 25%;
-    }
-}
-
-@media screen and (min-width: 550px) {
-    .container {
-        padding: 25% 10% 25%;
-    }
-}
-
-@media screen and (min-width: 800px) {
-    .container {
-        padding: 15% 10% 9%;
-    }
 }
 
 .btn-hero {
